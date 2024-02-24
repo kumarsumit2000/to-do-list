@@ -1,0 +1,99 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main{
+    margin: auto;
+    background: salmon;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listItems{
+    margin-top: 50px;
+}
+
+input{
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+#btn{
+    font-size: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn:hover{
+    background: white;
+}
+#list{
+    width: 100%;
+}
+#list li{
+    width: 100%;
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: orangered;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    background: rgb(214, 212, 212);
+    padding: 0px 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+span:hover{
+    background: white;
+    transform: scale(115%);
+    transition: 0.3s;
+
+}
+i{
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+i:hover{
+ transform: scale(125%);
+}
+#indi{
+    justify-content: space-evenly;
+}
+#done{
+background: green;
+font-size: 15px;
+font-weight: bold;
+padding: 3px;
+}
+#pending{
+background: red;
+font-size: 15px;
+font-weight: bold;
+padding: 3px;
+}
+
